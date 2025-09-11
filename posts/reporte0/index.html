@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Reporte 0: Uso de Markdown, Git y GitHub | Mi Portafolio</title>
+<meta name="keywords" content="">
+<meta name="description" content="Reporte 01: MARKDOWN, Git, Github y Hugo
+Autor: Daniel Mojica Salgado
+Fceha: 10 de septiembre de 2025
+¿Qué es Markdown?
+Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle, también podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino.">
+<meta name="author" content="">
+<link rel="canonical" href="https://%3cDanyNZ0124%3e.github.io/%3Cportafolio%3E/posts/reporte0/">
+<link crossorigin="anonymous" href="/%3cportafolio%3e/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://%3cDanyNZ0124%3e.github.io/%3Cportafolio%3E/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://%3cDanyNZ0124%3e.github.io/%3Cportafolio%3E/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://%3cDanyNZ0124%3e.github.io/%3Cportafolio%3E/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://%3cDanyNZ0124%3e.github.io/%3Cportafolio%3E/apple-touch-icon.png">
+<link rel="mask-icon" href="https://%3cDanyNZ0124%3e.github.io/%3Cportafolio%3E/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://%3cDanyNZ0124%3e.github.io/%3Cportafolio%3E/posts/reporte0/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://&lt;DanyNZ0124&gt;.github.io/%3Cportafolio%3E/posts/reporte0/">
+  <meta property="og:site_name" content="Mi Portafolio">
+  <meta property="og:title" content="Reporte 0: Uso de Markdown, Git y GitHub">
+  <meta property="og:description" content="Reporte 01: MARKDOWN, Git, Github y Hugo Autor: Daniel Mojica Salgado
+Fceha: 10 de septiembre de 2025
+¿Qué es Markdown? Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle, también podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino.">
+  <meta property="og:locale" content="es">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-09-10T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-09-10T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Reporte 0: Uso de Markdown, Git y GitHub">
+<meta name="twitter:description" content="Reporte 01: MARKDOWN, Git, Github y Hugo
+Autor: Daniel Mojica Salgado
+Fceha: 10 de septiembre de 2025
+¿Qué es Markdown?
+Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle, también podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://\u003cDanyNZ0124\u003e.github.io/%3Cportafolio%3E/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Reporte 0: Uso de Markdown, Git y GitHub",
+      "item": "https://\u003cDanyNZ0124\u003e.github.io/%3Cportafolio%3E/posts/reporte0/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Reporte 0: Uso de Markdown, Git y GitHub",
+  "name": "Reporte 0: Uso de Markdown, Git y GitHub",
+  "description": "Reporte 01: MARKDOWN, Git, Github y Hugo Autor: Daniel Mojica Salgado\nFceha: 10 de septiembre de 2025\n¿Qué es Markdown? Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle, también podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Reporte 01: MARKDOWN, Git, Github y Hugo Autor: Daniel Mojica Salgado\nFceha: 10 de septiembre de 2025\n¿Qué es Markdown? Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle, también podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino.\nSintaxis básica Encabezados (#, ##, ###)\nEsto es un texto en italica (* palabra *)\nEsto es un texto en negrita (** palabra **)\nListas ordenadas y no ordenadas\nElemento 1 Elemento 2 Elemento 1 Elemento 2 Enlaces e imágenes\nQue es markdown\nCódigo en línea y bloques de código\nPython print(Hola Mundo) Lenguaje C printf(\"Hola Mundo\"); Tablas\nElemento1 Eleemnto2 Elemento3 python C C++ ¿Qué es Git y GitHub? Git Git es un sistema de control de versiones distribuido , gratuito y de código abierto, diseñado para gestionar todo, desde proyectos pequeños hasta muy grandes, con velocidad y eficiencia.\nComandos esenciales de Git (chuleta) “git init”, “git status”, “git add”, “git commit -m” “git log –oneline –graph” “git branch”, “git switch -c”, “git merge” “git remote add origin”, “git push”, “git pull”, “git clone” GitHub GitHub es una plataforma basada en la nube donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código.\nAlmacenar tu código en un “repositorio” en GitHub te permite lo siguiente:\nPresentar o compartir el trabajo. Seguir y administrar los cambios en el código a lo largo del tiempo. Dejar que otros usuarios revisen el código y realicen sugerencias para mejorarlo. Colaborar en un proyecto compartido, sin preocuparse de que los cambios afectarán al trabajo de los colaboradores antes de que esté listo para integrarlos. Al cargar archivos en GitHub, los almacenarás en un “repositorio de Git”. Esto significa que al realizar cambios (o “confirmaciones”) en los archivos de GitHub, Git se iniciará automáticamente para realizar el seguimiento de los cambios y administrarlos.\n¿Qué es HUGO? Hugo es un innovador generador de sitios web estáticos que funciona como un framework web de propósito general. A diferencia de los sistemas dinámicos que generan páginas según las solicitudes de los usuarios, Hugo genera páginas cuando se crea o actualiza el contenido. Esto da como resultado sitios web extremadamente rápidos y seguros , que ofrecen una experiencia de visualización óptima para los usuarios y un proceso de escritura optimizado para los autores.\nUna característica distintiva de Hugo es su capacidad para crear sitios web sin necesidad de una base de datos ni depender de entornos de ejecución costosos como Ruby, Python o PHP. Esto lo hace ideal para quienes prefieren escribir en editores de texto y programar manualmente sus propios sitios web sin tener que lidiar con configuraciones complejas.\n",
+  "wordCount" : "490",
+  "inLanguage": "en",
+  "datePublished": "2025-09-10T00:00:00Z",
+  "dateModified": "2025-09-10T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://\u003cDanyNZ0124\u003e.github.io/%3Cportafolio%3E/posts/reporte0/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Mi Portafolio",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://\u003cDanyNZ0124\u003e.github.io/%3Cportafolio%3E/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://%3cDanyNZ0124%3e.github.io/%3Cportafolio%3E/" accesskey="h" title="Mi Portafolio (Alt + H)">Mi Portafolio</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Reporte 0: Uso de Markdown, Git y GitHub
+    </h1>
+    <div class="post-meta"><span title='2025-09-10 00:00:00 +0000 UTC'>September 10, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="reporte-01-markdown-git-github-y-hugo">Reporte 01: MARKDOWN, Git, Github y Hugo<a hidden class="anchor" aria-hidden="true" href="#reporte-01-markdown-git-github-y-hugo">#</a></h1>
+<p><strong>Autor:</strong> Daniel Mojica Salgado</p>
+<p><strong>Fceha:</strong> 10 de septiembre de 2025</p>
+<h2 id="qué-es-markdown">¿Qué es Markdown?<a hidden class="anchor" aria-hidden="true" href="#qué-es-markdown">#</a></h2>
+<p>Markdown es un lenguaje de marcado que facilita la aplicación de formato a un texto empleando una serie de caracteres de una forma especial. En principio, fue pensado para elaborar textos cuyo destino iba a ser la web con más rapidez y sencillez que si estuviésemos empleando directamente HTML. Y si bien ese suele ser el mejor uso que podemos darle, también podemos emplearlo para cualquier tipo de texto, independientemente de cual vaya a ser su destino.</p>
+<h3 id="sintaxis-básica">Sintaxis básica<a hidden class="anchor" aria-hidden="true" href="#sintaxis-básica">#</a></h3>
+<ul>
+<li>
+<p>Encabezados (#, ##, ###)</p>
+</li>
+<li>
+<p>Esto es un texto en <em>italica</em> (* palabra *)</p>
+</li>
+<li>
+<p>Esto es un texto en <strong>negrita</strong> (** palabra **)</p>
+</li>
+<li>
+<p>Listas ordenadas y no ordenadas</p>
+<ul>
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+</ul>
+<ol>
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+</ol>
+</li>
+<li>
+<p>Enlaces e imágenes</p>
+<p><a href="https://www.genbeta.com/guia-de-inicio/que-es-markdown-para-que-sirve-y-como-usarlo">Que es markdown</a></p>
+<p><img alt="markdown" loading="lazy" src="/<portafolio>/posts/reporte0/markdown.jpeg"></p>
+</li>
+<li>
+<p>Código en línea y bloques de código</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>Python
+</span></span><span style="display:flex;"><span>print(Hola Mundo)
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span>Lenguaje C
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;Hola Mundo&#34;</span>);
+</span></span></code></pre></div></li>
+<li>
+<p>Tablas</p>
+<table>
+  <thead>
+      <tr>
+          <th>Elemento1</th>
+          <th>Eleemnto2</th>
+          <th>Elemento3</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>python</td>
+          <td>C</td>
+          <td>C++</td>
+      </tr>
+  </tbody>
+</table>
+</li>
+</ul>
+<h2 id="qué-es-git-y-github">¿Qué es Git y GitHub?<a hidden class="anchor" aria-hidden="true" href="#qué-es-git-y-github">#</a></h2>
+<h3 id="git">Git<a hidden class="anchor" aria-hidden="true" href="#git">#</a></h3>
+<p><a href="https://git-scm.com/">Git</a> es un sistema de control de versiones distribuido , gratuito y de código abierto, diseñado para gestionar todo, desde proyectos pequeños hasta muy grandes, con velocidad y eficiencia.</p>
+<h4 id="comandos-esenciales-de-git-chuleta">Comandos esenciales de Git (chuleta)<a hidden class="anchor" aria-hidden="true" href="#comandos-esenciales-de-git-chuleta">#</a></h4>
+<ul>
+<li>&ldquo;git init&rdquo;, &ldquo;git status&rdquo;, &ldquo;git add&rdquo;, &ldquo;git commit -m&rdquo;</li>
+<li>&ldquo;git log &ndash;oneline &ndash;graph&rdquo;</li>
+<li>&ldquo;git branch&rdquo;, &ldquo;git switch -c&rdquo;, &ldquo;git merge&rdquo;</li>
+<li>&ldquo;git remote add origin&rdquo;, &ldquo;git push&rdquo;, &ldquo;git pull&rdquo;, &ldquo;git clone&rdquo;</li>
+</ul>
+<h3 id="github">GitHub<a hidden class="anchor" aria-hidden="true" href="#github">#</a></h3>
+<p><a href="https://github.com/">GitHub</a> es una plataforma basada en la nube donde puedes almacenar, compartir y trabajar junto con otros usuarios para escribir código.</p>
+<p>Almacenar tu código en un &ldquo;repositorio&rdquo; en GitHub te permite lo siguiente:</p>
+<ul>
+<li>Presentar o compartir el trabajo.</li>
+<li>Seguir y administrar los cambios en el código a lo largo del tiempo.</li>
+<li>Dejar que otros usuarios revisen el código y realicen sugerencias para mejorarlo.</li>
+<li>Colaborar en un proyecto compartido, sin preocuparse de que los cambios afectarán al trabajo de los colaboradores antes de que esté listo para integrarlos.</li>
+</ul>
+<p>Al cargar archivos en GitHub, los almacenarás en un &ldquo;repositorio de Git&rdquo;. Esto significa que al realizar cambios (o &ldquo;confirmaciones&rdquo;) en los archivos de GitHub, Git se iniciará automáticamente para realizar el seguimiento de los cambios y administrarlos.</p>
+<h2 id="qué-es-hugo">¿Qué es HUGO?<a hidden class="anchor" aria-hidden="true" href="#qué-es-hugo">#</a></h2>
+<p><a href="https://gohugo.io/">Hugo</a> es un innovador generador de sitios web estáticos que funciona como un framework web de propósito general. A diferencia de los sistemas dinámicos que generan páginas según las solicitudes de los usuarios, Hugo genera páginas cuando se crea o actualiza el contenido. Esto da como resultado sitios web extremadamente rápidos y seguros , que ofrecen una experiencia de visualización óptima para los usuarios y un proceso de escritura optimizado para los autores.</p>
+<p>Una característica distintiva de Hugo es su capacidad para crear sitios web sin necesidad de una base de datos ni depender de entornos de ejecución costosos como Ruby, Python o PHP. Esto lo hace ideal para quienes prefieren escribir en editores de texto y programar manualmente sus propios sitios web sin tener que lidiar con configuraciones complejas.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://%3cDanyNZ0124%3e.github.io/%3Cportafolio%3E/">Mi Portafolio</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
