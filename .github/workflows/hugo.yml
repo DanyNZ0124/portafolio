@@ -3,7 +3,7 @@ name: Deploy Hugo site to Pages
 on:
   push:
     branches:
-      - main   # o la rama donde subes tu markdown y config de Hugo
+      - master
 
 jobs:
   build:
